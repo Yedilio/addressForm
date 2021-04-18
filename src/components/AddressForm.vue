@@ -122,9 +122,8 @@
         },
         methods: {
             checkForm() {
-                // this.$v.form.$touch()
+                this.$v.form.$touch()
                 if (!this.$v.form.$error) {
-                    // window.alert('Пользователь успешно создан!');
                     this.isShow = true;
 
                     this.form.index = '';

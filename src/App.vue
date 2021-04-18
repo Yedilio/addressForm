@@ -6,13 +6,11 @@
 
 <script>
   import AddressForm from "./components/AddressForm";
-  // import ModalWindows from "./components/ModalWindows";
 
   export default {
     name: 'App',
     components: {
       AddressForm,
-      // ModalWindows
     }
   }
 </script>
